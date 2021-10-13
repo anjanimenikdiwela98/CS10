@@ -1,0 +1,340 @@
+:root{
+    --labelFont: 'Nunito', sans-serif;
+
+    --labelColor: #384047;
+    --offWhite: #f4f7f8;
+    --lightTeal: #B2D8D8;
+}
+#logoHome {
+    position: absolute;
+    top:10px;
+    width:400px;
+}
+
+#logo {
+    position: absolute;
+    top:10px;
+    margin-left: 230px;
+    width:200px;
+}
+
+.logoBack{
+    width: 100%;
+    margin-top: -8px;
+    height: 70px;
+    background: teal;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    user-select: none;
+}
+
+.logoBackHome{
+    width: 100%;
+    margin-top: -8px;
+    height: 120px;
+    background: rgba(0,128,128,0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    user-select: none;
+}
+
+.navBar{
+    position: absolute;
+    right: 16%;
+    overflow: hidden;
+    text-align: center;
+    line-height: 70px;
+}
+.navBar a{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0px 25px;
+  text-decoration: none;
+  font-family: body;
+  font-weight: bold;
+}
+
+.navBar a:hover{
+    border-top: #384047 solid;
+    background-color: #ddd;
+    color: #384047;
+}
+
+/* End of Header */
+
+.organization{
+    display: grid;
+    grid-template-columns: 3fr 1fr;   
+}
+.orgDescrip{
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+
+.organizationPhoto{
+    position: relative;
+    top: 20px;
+    left: 50%;
+}
+
+#DesUpdate{
+    color: white;
+    background-color: teal;
+    border: none;
+    position: relative;
+    top: 10px;
+    left: 40%;
+    height: 53px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: body;
+    font-weight: bold;
+    font-size: 150%;
+    cursor: pointer;
+
+}
+
+#DesUpdate:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+
+
+hr {
+    border-top: 2px dashed teal;
+  }
+mark {
+    color: white;
+    background-color: teal;
+  }
+
+.Functions{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 5px;
+    width: 100%;
+    
+}
+
+.Functions #ScheduleInterviewbtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 175px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 6%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 130%;
+    cursor: pointer;
+}
+#ScheduleInterviewbtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+
+.Functions #MyAdbtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 175px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 6%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 130%;
+    cursor: pointer;
+   
+}
+#MyAdbtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+.Functions #PublishAdbtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 175px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 6%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 130%;
+    cursor: pointer;
+   
+}
+#PublishAdbtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+.Functions #HireRecruiterbtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 168px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 6%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 132%;
+    cursor: pointer;
+   
+}
+#HireRecruiterbtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+.Functions #RegisterInterviewerbtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 175px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 6%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 130%;
+    cursor: pointer;
+   
+}
+#RegisterInterviewerbtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+
+.SearchCandidate{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 40px;
+    width: 92%;
+    
+}
+
+#SearchCandidatebtn{
+    color: white;
+    background-color: teal;
+    border: none;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 80%;
+    font-family: body;
+    font-weight: bold;
+    font-size: 130%;
+    cursor: pointer;
+
+}
+#SearchCandidatebtn:hover, .icon:hover{
+    box-shadow: 0 0 20px rgba(4, 187, 156, 0.685);
+    background-color: teal;
+}
+
+
+.ResultTable{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 12%;
+    height: auto;
+}
+.ResultTable table{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color:none;
+}
+
+.ResultTable p{
+    font-size: 250%;
+    text-align: center;
+    margin-top: 10px;
+    color: teal;
+    
+}
+.Applications{
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 12%;
+    height: auto;
+}
+.Applications table{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color:none;
+}
+
+.Applications p{
+    font-size: 170%;
+    text-align: center;
+    margin-top: 10px;
+    color: teal;
+    
+}
+
+
+
+/* Recruiter and interviewer list */
+
+.lastSection{
+    display: grid;
+    grid-template-columns: 500px 500px;   
+    grid-template-rows: auto;
+}
+.lastSection1{
+    position: relative;
+    top: 20px;
+    left: 10%;
+    width: 120%;
+}
+
+.lastSection2{
+    position: relative;
+    top: 20px;
+    left: 30%;
+    width: 120%;
+}   
+
+.lastSection1 table{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 5%;
+    background-color: none;
+}
+
+.lastSection1 p{
+    font-size: 170%;
+    text-align: center;
+    margin-top: 40px;
+    color: teal;
+    
+}
+
+
+
+.lastSection2 table{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    background-color: none;
+}
+
+.lastSection2 p{
+    font-size: 170%;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    color: teal;
+}
+
